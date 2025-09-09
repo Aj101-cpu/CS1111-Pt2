@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+        int num1, num2;
+        char op;
+
+        printf("Please enter an integer expression: ");
+        scanf("%d %c %d", &num1, &op, &num2 );
+
+        printf("Operand 1: %d\n", num1 );
+        printf("Operand 2: %d\n", num2);
+        printf("Operation: %c\n", op);
+
+}
