@@ -2,7 +2,7 @@
  * CS1111 max.c
  * Author: Austin Johnson
  * Email: austinjo@mtu.edu
- * 10/10/2024
+ * 10/10/2025
  */
 
 #include <stdio.h>
