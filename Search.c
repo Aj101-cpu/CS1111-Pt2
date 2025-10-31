@@ -1,8 +1,8 @@
 /*
- * CS1111 search.c
- * Author: Thad Kustarz, Ian Ranstadler, Claire schultz, Austin Johnson
- * Email:twkustar@mtu.edu, austinjo@mtu.edu, claschul@mtu.edu, imransta@mtu.edu
- * 10/25/2024
+ * CS1111 Search.c
+ * Author: Austin Johnson
+ * Email: austinjo@mtu.edu
+ * 10/31/2024
  */
 
 //Sets up program
