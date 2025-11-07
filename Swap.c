@@ -7,24 +7,31 @@
  */
 
 #include<stdio.h>
-void swap(int *a, int *b); //calls the swap function
 
+// Calls the swap function
+void swap(int *a, int *b);
+
+//Declare variables
 int main(){
-    int a; //sets int a
-    int b; //sets int b
+    int a;
+    int b;
 
     a = 1; b = 2;
 
     printf("a = %d, b = %d\n", a, b);
-    swap(&a,&b); // Call your swap function here.
 
-    printf("a = %d, b = %d\n", a, b); //prints the swapped values
+    //Calls swap function
+    swap(&a,&b);
+
+    printf("a = %d, b = %d\n", a, b);
 }
 
-void swap(int *a, int *b){ //executes swap function
+//Executes swap function
+void swap(int *a, int *b){
         int tmp;
 
         tmp = *a;
         *a = *b;
         *b = tmp;
 }
+~       
